@@ -15,12 +15,14 @@ body {
 }
 
 #main {
-  width: 70%;
+  width: 65%;
   height: 85vh;
   display: flex;
   align-items: center;
   margin: auto;
-  padding-top: 5vh;
+  margin-top: 5vh;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #image {
@@ -62,7 +64,7 @@ body {
 
 #form h1 {
   font-size: 40px;
-  padding: 14px 0 0 0;
+  padding: 10px 0 0 0;
   font-weight: 600;
 }
 
@@ -116,7 +118,7 @@ body {
   padding: 10px 7px;
   border-radius: 4px;
   font-size: 14px;
-  margin: 10px 0;
+  margin: 5px 0;
   cursor: pointer;
 }
 
@@ -125,7 +127,7 @@ body {
 }
 
 #newUser {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 #newUser a {
