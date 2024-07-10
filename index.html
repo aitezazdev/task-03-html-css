@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="image">
+        <img src="./images/bg-pic.avif" alt="bc-ground-image" />
+        <div>Welcome Back</div>
+      </div>
+
+      <div id="side-cont">
+        <form id="form">
+          <h1>Login</h1>
+          <p id="para">Welcome back! Please login to your account</p>
+          <label for="Username" class="label">User Name</label><br />
+          <input
+            type="text"
+            placeholder="Your Username"
+            id="Username"
+            class="inputs"
+            required
+          /><br />
+
+          <label for="Password" class="label">Password</label><br />
+          <input
+            type="password"
+            placeholder="Secure Password"
+            id="Password"
+            class="inputs"
+            required
+          /><br />
+          <div id="remfor">
+            <p style="display: flex; align-items: center; gap: 3px">
+              <input type="checkbox" id="remember-me" />
+              <label for="remember-me">Remember Me</label>
+            </p>
+
+            <a href="#">Forgot Password?</a>
+          </div>
+
+          <input type="submit" value="Login" id="btn" />
+
+          <p id="newUser"><span>New User?</span> <a href="#">Sign Up</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
